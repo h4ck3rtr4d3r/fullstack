@@ -1,0 +1,101 @@
+body {
+    background-image: url(fundo1.png) ;  
+    background-repeat: no-repeat ;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Anonymous Pro';
+    color: #f4f6f8;    
+    margin: 0;
+}
+.container {
+    width: 900px;
+    margin: 0 auto;
+
+}
+.profile {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-weight: lighter;
+    margin-left: 50px;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+h2 {
+    font-weight: lighter;
+    margin-left: 50px;
+    margin-top: 0;
+    font-style: italic;
+}
+
+h3 {
+    font-weight: lighter;
+    margin-left: 0px;
+}
+
+h5 {
+    font-weight: lighter;
+    margin: 0;
+    font-style: italic;
+}
+
+.companies {
+    padding-left: 0;
+}
+
+.jobs-list {
+    list-style: none;
+}
+
+.foto {
+    width: 200px;
+    border:  2px double #733B0A;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-left: 50px;
+    box-shadow: 0px 0px 22px black; ;
+}
+
+.icon {
+    margin-left: 30px;
+    width: 30px;
+}
+.Contato {
+    margin-left: 110px;
+    font-family: monospace;
+    font-size: 17px;
+}
+
+.links {
+    text-decoration: none;
+}
+
+.social {
+    margin-left: 30px;
+    font-family: monospace;
+    font-size: 17px;
+}
+
+
+p {
+    font-family: monospace;
+    font-size: 16px;
+    text-align: justify;
+    margin-left: 0px;
+}
+ul {
+    font-size: 16px;
+    font-family: monospace;
+}
+
+.footer {
+    background-color: black;
+    margin-top: 40px;
+    color: blanchedalmond;
+    text-align: center;
+    padding: 10px 0;
+}

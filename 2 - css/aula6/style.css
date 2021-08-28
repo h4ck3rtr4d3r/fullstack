@@ -1,0 +1,65 @@
+body {
+    background-image: url(fundo.png) ;
+    background-repeat: no-repeat ;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1 {
+    color: #f4f6f8;
+    font-family: monospace;
+    font-weight: lighter;
+    margin-left: 50px;
+}
+
+h2 {
+    color: #f4f6f8;
+    font-family: monospace;
+    font-weight: lighter;
+    margin-left: 50px;
+}
+
+h3 {
+    color: #f4f6f8;
+    font-family: monospace;
+    font-weight: lighter;
+    margin-left: 0px;
+}
+
+.foto {
+    width: 200px;
+    border:  2px double #733B0A;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.icon {
+    width: 30px;
+}
+.Contato {
+    color: #f4f6f8;
+    margin-left: 110px;
+    font-family: monospace;
+    font-size: 17px;
+}
+
+.social {
+        margin-left: 30px;
+        font-family: monospace;
+        font-size: 17px;
+}
+
+p {
+    color: #f4f6f8;
+    font-family: monospace;
+    font-size: 16px;
+    text-align: justify;
+    margin-left: 0px;
+}
+ul {
+    font-size: 16px;
+    color: #f4f6f8;
+    font-family: monospace;
+}

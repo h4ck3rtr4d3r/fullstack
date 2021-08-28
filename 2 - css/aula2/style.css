@@ -1,0 +1,10 @@
+body {
+    background-color: hsla(132, 20%, 95%, 0.767);
+}
+h1,h2,h3 {
+    color: #031226;
+}
+
+.foto {
+    width: 200px;
+}

@@ -1,0 +1,25 @@
+body {
+    background-image: url(fundo.png) ;
+    background-repeat: no-repeat ;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1,h2,h3 {
+    color: #f4f6f8;
+    font-family: monospace;
+}
+
+.foto {
+    width: 200px;
+}
+p {
+    color: #f4f6f8;
+    font-family: monospace;
+    font-size: medium;
+    text-align: justify;
+}
+ul {
+    color: #f4f6f8;
+}
