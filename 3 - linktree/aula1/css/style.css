@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background: #364dcc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 20px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    margin: 0;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.avatar {
+    width: 80px;
+    border-radius: 50px;
+    border: 3px solid white;
+    box-shadow: 0 0 20px ;
+}
+
+h1 {
+    font-family: 'Architects Daughter', cursive;
+    font-weight: 100;
+    font-size: 24px;
+    
+}
+
+h2 {
+    font-size: 16px;
+}
+
+h3 {
+    color: rgba(54,77,204,1);
+    font-size: 16px;
+    margin-top: 4px;
+    
+}
+
+h5 {
+    color: gray;
+    font-size: 13px;
+}
+
+.profile {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0;
+    max-width: 500px;
+    list-style: none;
+}
+
+.social img {
+    width: 33px;
+    padding-top: 15px;
+}
+
+.active {
+    margin-bottom: 8px;
+    
+}
+
+.buttons:hover, buttons:active, .active {
+    box-shadow: 0 0 20px white;
+    color: #364dcc;
+}
+
+.buttons {
+    display: block;
+    background: rgb(255, 255, 255);
+    padding: 14px 20px;
+    border-radius: 6px;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    text-decoration: none;
+    margin-bottom: 6px;
+    width: 90%;
+    max-width: 500px;
+}
+
+.link-list1 span {
+    color: black;
+}
