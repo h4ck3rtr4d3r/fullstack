@@ -1,0 +1,55 @@
+@import 'variables';
+@import 'base';
+
+@mixin reset-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;  
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+
+  .box {
+    width: 30%;
+    color: black;
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+
+    &.active {
+      background: $color-secondary;
+    }
+
+    h2 {
+      font-size: 22px;
+      margin: 10px 20px 30px 20px;
+      font-family: $font-primary;
+    }
+
+    p{
+      font-family: $font-secondary;
+      font-size: 18px;
+      &.hidden {
+        display: none;
+      }
+    }
+
+    ul {
+      @include reset-list;
+    }
+
+    a {
+      color: green;
+
+      &:hover {
+        color: yellow;
+
+        & + p.hidden {
+          display: block;
+        }
+      }
+    }
+  }
+}
