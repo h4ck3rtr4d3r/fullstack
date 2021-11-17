@@ -1,4 +1,4 @@
-let diaSemana = new Date() .getDay()
+let diaSemana = new Date().getDay();
 
 let nomeDiaSemana
 
@@ -27,4 +27,4 @@ switch (diaSemana) {
     break;
 }
 
-document.write(`O dia da semana é: ${nomeDiaSemana}`)
+document.write(`O dia da semana é: ${nomeDiaSemana}`) // O dia da semana é: sábado
