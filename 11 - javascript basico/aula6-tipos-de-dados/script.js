@@ -49,12 +49,13 @@ let pessoa = {
   idade: 25,
   habilidade: ['c++', 'c#', 'JavaScript']
 }
-console.log(pessoa)
+console.log(pessoa.nome)
+console.log(pessoa.habilidade[1])
 
 // JSON (JAVASCRIPT OBJECT NOTATION)
 
 // undefined
-let endereco
+let endereco;
 console.log(endereco)
 
 // null
