@@ -1,3 +1,9 @@
+for(let contador = 0; contador <= 10; contador++){
+  document.write(`Hello World ${contador}`)
+  document.write("<br>")
+}
+
+
 
 let opcoes
 
