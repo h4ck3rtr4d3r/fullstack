@@ -17,7 +17,7 @@ let lista = ''
 
 let clientes = ['Thiago', 'Amanda', 'Rafael', 'Felipe','Tabata']
 
-for(let contador = 0; contador <= clientes.length; contador++){
+for(let contador = 0; contador <= clientes.length-1; contador++){
   lista += `<li>${clientes[contador]} - ${contador}</li>`
 }
 
