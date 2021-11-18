@@ -5,17 +5,24 @@ let clientes = [
     linguagens: ['JavaScript', 'C++', 'Python']
   },
   {
-    nome: 'Fulano',
+    nome: 'Tabata',
     idade: 22,
     linguagens: ['C#', 'php', 'Ruby']
   },
 
   {
-    nome: 'Ciclano',
+    nome: 'Ariella',
     idade: 19,
     linguagens: ['go', 'closure', 'r']
 
+  },
+
+  {
+    nome: 'Dominic',
+    idade: 13,
+    linguagens: ['JavaScript', 'C#', 'C++']
   }
+
 ]
 
 let htmlClientes = ''
@@ -25,7 +32,7 @@ for (let cliente of clientes) {
   let listaLinguagens = ''
 
   for(let linguagem of cliente.linguagens) {
-    listaLinguaguens += `<li>${linguagem}</li>`
+    listaLinguagens += `<li>${linguagem}</li>`
   }
   
   htmlClientes += `
