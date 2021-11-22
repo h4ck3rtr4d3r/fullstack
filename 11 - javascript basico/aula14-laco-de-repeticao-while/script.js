@@ -5,4 +5,4 @@ while(contador < 10){
   contador++
 }
 
-// Stack Overflow
+// Stack Overflow is when the program runs out of memory and stops. Be careful with this.
